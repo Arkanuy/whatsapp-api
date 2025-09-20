@@ -142,7 +142,7 @@ curl -X POST http://localhost:3000/send-message \
   -H "Content-Type: application/json" \
   -H "x-secret-key: 4ac539495691a1e8fb45ddb2f0aedfb6" \
   -d '{
-    "number": "62895617632726",
+    "number": "6289.....",
     "message": "Halo dari API WhatsApp!"
   }'
 ```
@@ -171,7 +171,7 @@ const sendMessage = async () => {
       'x-secret-key': '4ac539495691a1e8fb45ddb2f0aedfb6'
     },
     body: JSON.stringify({
-      number: '62895617632726',
+      number: '6289.....',
       message: 'Halo dari JavaScript!'
     })
   });
@@ -197,7 +197,7 @@ headers = {
 
 # Data pesan
 data = {
-    "number": "62895617632726",
+    "number": "6289.....",
     "message": "Halo dari Python!"
 }
 
@@ -212,10 +212,10 @@ print(result)
 
 API ini mendukung berbagai format nomor telepon Indonesia:
 
-- `085617632726` → otomatis menjadi `62895617632726@c.us`
-- `+62895617632726` → otomatis menjadi `62895617632726@c.us`
-- `62895617632726` → otomatis menjadi `62895617632726@c.us`
-- `62895617632726@c.us` → tetap sama
+- `085617632726` → otomatis menjadi `6289.....@c.us`
+- `+6289.....` → otomatis menjadi `6289.....@c.us`
+- `6289.....` → otomatis menjadi `6289.....@c.us`
+- `6289.....@c.us` → tetap sama
 
 ## 🔒 Keamanan
 
