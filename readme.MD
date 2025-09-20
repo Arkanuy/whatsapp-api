@@ -80,7 +80,7 @@ x-secret-key: your_secret_key_here
 {
     "status": true,
     "message": "Pesan berhasil dikirim",
-    "to": "6281234567890@c.us",
+    "to": "6289....",
     "messageId": "3EB0C431C5BD8E5B1234567890ABCDEF"
 }
 ```
